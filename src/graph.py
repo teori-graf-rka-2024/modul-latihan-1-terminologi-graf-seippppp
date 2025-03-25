@@ -29,5 +29,5 @@ def find_shortest_path(G: nx.Graph, source: int, target: int) -> list[int]:
 # no 6
 import matplotlib.pyplot as plt
 def visualize_graph(G: nx.Graph) -> None:
-    nx.draw(G, with_labels=True, node_color="orange")
+    nx.draw(G, with_labels=True)
     plt.savefig('graf.png')
